@@ -34,7 +34,7 @@ class App extends React.Component {
   }
 
   componentWillUnmount(){
-    clearInterval(this.watTimeUpdateTimer)
+    clearInterval(this.waitTimeUpdateTimer)
   }
 
   handleAddingNewTicketToList(newTicket){
